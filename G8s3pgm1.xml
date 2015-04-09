@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="34">
-            <field name="TEXT">4*647621746276572662764578264576257628756</field>
+            <field name="TEXT">102030405*19930283</field>
             <next>
               <block type="oled_drawnumber" id="52" inline="true">
                 <value name="NUMBER">
@@ -22,12 +22,12 @@
                     <field name="OP">MULTIPLY</field>
                     <value name="A">
                       <block type="math_number" id="68">
-                        <field name="NUM">4</field>
+                        <field name="NUM">102030405</field>
                       </block>
                     </value>
                     <value name="B">
                       <block type="math_number" id="91">
-                        <field name="NUM">9.237861846872648e+32</field>
+                        <field name="NUM">19930283</field>
                       </block>
                     </value>
                   </block>
