@@ -13,7 +13,7 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="34">
+          <block type="oled_drawtext" id="34" disabled="true">
             <field name="TEXT">102030405*19930283</field>
             <next>
               <block type="oled_drawnumber" id="52" inline="true">
