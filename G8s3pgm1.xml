@@ -14,20 +14,30 @@
         </value>
         <next>
           <block type="oled_drawtext" id="34">
-            <field name="TEXT">188888935+88893872</field>
+            <field name="TEXT">4+(3*2)</field>
             <next>
               <block type="oled_drawnumber" id="52" inline="true">
                 <value name="NUMBER">
                   <block type="math_arithmetic" id="67" inline="true">
-                    <field name="OP">ADD</field>
+                    <field name="OP">MULTIPLY</field>
                     <value name="A">
                       <block type="math_number" id="68">
-                        <field name="NUM">188888935</field>
+                        <field name="NUM">4</field>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="70">
-                        <field name="NUM">888938372</field>
+                      <block type="math_arithmetic" id="88" inline="true">
+                        <field name="OP">MULTIPLY</field>
+                        <value name="A">
+                          <block type="math_number" id="89">
+                            <field name="NUM">3</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="90">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
                       </block>
                     </value>
                   </block>
